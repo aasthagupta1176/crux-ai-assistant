@@ -42,10 +42,6 @@ Important:
 now your userInput- ${command}
 `;
 
-
-
-
-
     const result=await axios.post(apiUrl,{
     "contents": [{
     "parts":[{"text": prompt}]

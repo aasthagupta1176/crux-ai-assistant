@@ -96,7 +96,7 @@ synth.speak(utterence);
   }
 
 useEffect(() => {
-  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;  // chrome wala and edge wala speech recognisation 
   const recognition = new SpeechRecognition();
 
   recognition.continuous = true;
